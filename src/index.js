@@ -3,10 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import BackgroundVid from './BackgroundVid';
+import ReserveButton from './ReserveButton';
+import {StyledText,Button} from './Styles'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <BackgroundVid/>
+
+
+    
+
+
+   
+  <StyledText> <h1>Email theteslabots@gmail.com for serious inquiries only.</h1></StyledText>
+  <ReserveButton/>
   </React.StrictMode>,
   document.getElementById('root')
 );
