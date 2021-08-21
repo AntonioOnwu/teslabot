@@ -3,7 +3,8 @@ import React from 'react'
 import video from './FinalVid.mov'
 
 const BackgroundVid = () => {
-    const videoSource = video
+    // const videoSource = video
+    const videoSource = 'https://www.w3schools.com/tags/movie.mp4'
     return (
         <div className ="App">
         <video autoPlay = "autoplay" loop ="loop" muted
