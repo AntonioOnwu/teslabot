@@ -16,7 +16,7 @@ ReactDOM.render(
 
 
    
-  <StyledText> <h1>Email theteslabots@gmail.com for serious inquiries only.</h1></StyledText>
+  <StyledText> <h1>Email theteslabots@gmail.com for serious inquiries only!!!!</h1></StyledText>
   <ReserveButton/>
   </React.StrictMode>,
   document.getElementById('root')
